@@ -3976,7 +3976,7 @@ textarea.form-control-lg {
   isolation: isolate;
 }
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
+  color:  #fff;
   background-color: transparent;
   border-color: transparent;
 }
