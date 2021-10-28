@@ -3982,7 +3982,7 @@ textarea.form-control-lg {
 }
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
+  color:  #fff;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -11446,7 +11446,7 @@ html {
 }
 
 .Chart-right-main-imag{
-  width: 30rem;
+  width: 40rem;
   background-color: #fff;
 }
 
