@@ -11445,6 +11445,11 @@ html {
   width: 30rem;
 }
 
+.Chart-right-main-imag{
+  width: 30rem;
+  background-color: #fff;
+}
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
