@@ -64,6 +64,12 @@
   --bs-body-bg: #fff;
 }
 
+@font-face {
+  font-family: 'Poppins';
+  src: url(/css/Poppins/Poppins-Light.ttf),format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 *,
 *::before,
 *::after {
@@ -7808,7 +7814,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: #7723FF;
+/* background-color: #7723FF; */
 }
 
 .bg-secondary {
@@ -11356,7 +11362,7 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
@@ -11446,7 +11452,7 @@ html {
 }
 
 .Chart-right-main-imag{
-  width: 30rem;
+  width: 10rem;
   background-color: #fff;
 }
 
