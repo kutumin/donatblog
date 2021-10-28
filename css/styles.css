@@ -11448,18 +11448,49 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 30rem;
-  padding-top: 50px;
+  width: 25rem;
+  padding-top: 90px;
 }
 
 .Chart-right-main-imag{
-  width: 10rem;
-  background-color: #fff;
+  width: 12rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+  position: absolute;
+  margin-top: 180px;
+  margin-left: -150px;
+}
+
+.Bar_chart-left-main-imag{
+  width: 13rem;
+  border-radius: 30px;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 200px;
+}
+.Messege_card{
+  width: 13rem;
+  border-radius: 30px;
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 200px;
+}
+.Messege-large-left{
+  width: 15rem;
+  border-radius: 30px;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 300px;
+}
+.transparent{    
+  background-color: rgba(0,0,0,0.15);
+  width: 1457px;
+  height: 843px;
 }
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    /* padding-top: calc(6rem + 104px); */
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
