@@ -11488,6 +11488,18 @@ html {
   height: 843px;
 }
 
+@media (max-width: 768px) {
+  .Messege-large-left{
+    display: none;
+  }
+  .Bar_chart-left-main-imag{
+    display: none;
+  }
+  .Chart-right-main-imag{
+    display: none;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     /* padding-top: calc(6rem + 104px); */
@@ -11501,6 +11513,7 @@ html {
     font-size: 1.5rem;
   }
 }
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
