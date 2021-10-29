@@ -11482,10 +11482,55 @@ html {
   margin-top: 150px;
   margin-left: 300px;
 }
+.Messege{
+  width: 6rem;
+  position: absolute;
+  margin-top: 135px;
+  margin-left: 400px;
+}
 .transparent{    
   background-color: rgba(0,0,0,0.15);
   width: 1457px;
   height: 843px;
+}
+
+.Make_your_business_div{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: -900px;
+}
+.Make_your_business{
+  text-align: left;
+  color:black;
+  font-weight: 600;
+  font-size: 5rem;
+  line-height: 0.9;
+}
+.Make_your_business_text{
+  color:black;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-top: 30px;
+}
+
+.Business{
+  color:#FFB423;
+  background: none;
+  font-size: 8rem;
+}
+
+@media (max-width: 1300px) {
+  .Make_your_business_div{
+    position: sticky ;
+    margin: 0 auto;
+  }
+  .Make_your_business{
+    font-size: 5rem;
+  }
+  .Business{
+    font-size: 6rem;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -11496,6 +11541,9 @@ html {
     display: none;
   }
   .Chart-right-main-imag{
+    display: none;
+  }
+  .Messege{
     display: none;
   }
 }
