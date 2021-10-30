@@ -32,7 +32,7 @@
   --bs-gray-600: #6c757d;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
+  --mainNav-900: #212529;
   --bs-primary: #1abc9c;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
@@ -11526,11 +11526,10 @@ html {
   }
   .Make_your_business{
     font-size: 5rem;
-  }
+  } 
   .Business{
     font-size: 6rem;
   }
-
 }
 
 @media (max-width: 768px) {
