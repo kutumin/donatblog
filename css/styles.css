@@ -32,7 +32,7 @@
   --bs-gray-600: #6c757d;
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
-  --mainNav-900: #212529;
+  --bs-gray-900: #212529;
   --bs-primary: #1abc9c;
   --bs-secondary: #2c3e50;
   --bs-success: #198754;
@@ -11517,6 +11517,41 @@ html {
   color:#FFB423;
   background: none;
   font-size: 8rem;
+}
+
+.email{
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 57px;
+}
+
+.subscribe__input {
+  color: #8e8e8e;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex: 0 1 521px;
+  min-height: 0.5rem;
+  padding: 0;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: none;
+  border-radius: 1rem;
+  margin-right: 22px;
+  background-color: #fff;
+}
+
+.contact-link-3 {
+  font-size: 17.9px;
+  color: #ffffff;
+  background-color: #7723FF;
+  width: 217px;
+  padding: 22px 0;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 1rem;
 }
 
 @media (max-width: 1300px) {
